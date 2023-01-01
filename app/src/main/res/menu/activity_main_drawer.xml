@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_left_exit"
+        android:icon="@drawable/ic_round_exit_to_app_24"
+        android:title="Exit" />
+
+    <item android:title="About us">
+        <menu>
+            <item android:title="share">
+                <item
+                    android:id="@+id/nav_left_rate"
+                    android:icon="@drawable/ic_round_star_rate_24"
+                    android:title="Rate App" />
+
+                <item
+                    android:id="@+id/nav_left_share"
+                    android:icon="@drawable/ic_baseline_video_library_24"
+                    android:title="Share " />
+
+                <item
+                    android:id="@+id/nav_left_feed"
+                    android:icon="@drawable/ic_round_email_24"
+                    android:title="Feedback" />
+
+                <item
+                    android:id="@+id/more_apps"
+                    android:icon="@drawable/ic_baseline_apps_muted"
+                    android:title="More wallpapers" />
+
+
+                <item
+                    android:id="@+id/clear_cache"
+                    android:icon="@drawable/ic_round_cleaning_services_24"
+                    android:title="clear cache" />
+            </item>
+        </menu>
+    </item>
+    <item android:title="More apps">
+        <menu>
+            <item
+                android:id="@+id/super_hero"
+                android:icon="@drawable/ic_enso"
+                android:title="super hero wallpaper" />
+
+            <item
+                android:id="@+id/artistic"
+                android:icon="@drawable/ic_enso"
+                android:title="Artistic wallpaper" />
+
+
+            <item
+                android:id="@+id/car"
+                android:icon="@drawable/ic_enso"
+                android:title="Super Car wallpaper" />
+
+<!--            <item-->
+<!--                android:id="@+id/sketchy"-->
+<!--                android:icon="@drawable/ic_enso"-->
+<!--                android:title="Sketchy wallpaper" />-->
+        </menu>
+    </item>
+</menu>
+

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "664728534003",
+    "firebase_url": "https://anime-wall-bcf8f-default-rtdb.firebaseio.com",
+    "project_id": "anime-wall-bcf8f",
+    "storage_bucket": "anime-wall-bcf8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664728534003:android:416a1ff0eb05aba8d7f086",
+        "android_client_info": {
+          "package_name": "com.ravi_apps4k.anime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664728534003-aven8logpkgga23o3hhp6q1gqsc6m2jv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASTdkU9AzII2wj_O58BN5NH1sDx7n4HAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664728534003-aven8logpkgga23o3hhp6q1gqsc6m2jv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

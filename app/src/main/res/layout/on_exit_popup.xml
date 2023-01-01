@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pop_background"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Hello, I'm an amateur programmer. Building this app took a lot  of time and effort. please rate and leave a feedback on PlayStore."
+            android:textColor="@color/muted_white"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30dp"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="30dp">
+
+            <ImageView
+                android:id="@+id/one"
+                android:layout_columnWeight="1"
+                android:layout_width="@dimen/star_dim"
+                android:layout_height="@dimen/star_dim"
+                android:src="@drawable/ic_round_star_border_24"
+                android:tint="@color/yellow"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"/>
+
+          <ImageView
+                android:id="@+id/two"
+                android:layout_columnWeight="1"
+                android:layout_width="@dimen/star_dim"
+                android:layout_height="@dimen/star_dim"
+                android:src="@drawable/ic_round_star_border_24"
+                android:tint="@color/yellow"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"/>
+
+          <ImageView
+                android:id="@+id/three"
+                android:layout_columnWeight="1"
+                android:layout_width="@dimen/star_dim"
+                android:layout_height="@dimen/star_dim"
+                android:src="@drawable/ic_round_star_border_24"
+                android:tint="@color/yellow"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"/>
+
+          <ImageView
+                android:id="@+id/four"
+                android:layout_columnWeight="1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_round_star_border_24"
+                android:tint="@color/yellow"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"/>
+
+          <ImageView
+                android:id="@+id/five"
+                android:layout_columnWeight="1"
+                android:layout_width="@dimen/star_dim"
+                android:layout_height="@dimen/star_dim"
+                android:src="@drawable/ic_round_star_border_24"
+                android:tint="@color/yellow"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"/>
+
+
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginBottom="20dp">
+
+            <Button
+
+                android:id="@+id/later"
+                android:layout_columnWeight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="later"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonstyle"
+                android:textColor="@color/muted_white"
+                android:layout_marginBottom="10dp"/>
+
+
+   <Button
+
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_columnWeight="1"
+                android:id="@+id/rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rate"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonstyle"
+                android:textColor="@color/muted_white"/>
+
+            <Button
+
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_columnWeight="1"
+                android:id="@+id/exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="exit"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonstyle"
+                android:textColor="@color/muted_white"/>
+        </GridLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
