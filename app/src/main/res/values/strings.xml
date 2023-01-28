@@ -1,11 +1,5 @@
 <resources>
     <string name="app_name"> 4k Anime</string>
-    <string name="info1">इस ऐप को बनाने में  बहुत ही परिश्रम और अमूल्य समय लगा है।</string>
-    <string name="info2">अगर  यह ऐप आपको अच्छा लगा हो तोह निचे दिए गए बटन पर क्लिक कर के 5 स्टार रेटिंग दे।</string>
-    <string name="info4">रेट  करने के लिए यहाँ क्लिक करे।</string>
-    <string name="info5">शेयर  करने के लिए यहाँ क्लिक करे </string>
-    <string name="about">सपना चौधरी एक भारतीय गायिका, नृतकी और अभिनेत्री है  जिनका जन्म 25 सितम्बर 1990 (आयु 29)
-रोहतक में हुआ है । सपना टीवी रियलिटी शो बिग बॉस 11 की प्रतिभागी भी रह चुकी है। सपना ने बॉलीवुड फिल्मों में आइटम सॉंग भी किया है।</string>
     <string name="nav_header_title">Super Car</string>
     <string name="nav_header_subtitle"></string>
     <string name="nav_header_desc">Navigation header</string>
@@ -99,38 +93,6 @@
 
     <!--end of sample ads -->
 
-
-
-    <!--    laxmibhr -->
-
-
-<!--    <string name="app_id">ca-app-pub-6398456303321389~7304212436</string>-->
-<!--    <string name="admob_home_interstitial">ca-app-pub-6398456303321389/1021477018</string>-->
-<!--    <string name="admob_home_adapter_interstitial">ca-app-pub-6398456303321389/7182688547</string>-->
-<!--    <string name="admob_viewpager_adapter_interstitial">ca-app-pub-6398456303321389/4369695088</string>-->
-
-
-    <!--    avi007 -->
-
-        <string name="app_id">ca-app-pub-4389384805063190~7426821428</string>
-        <string name="admob_home_interstitial">ca-app-pub-4389384805063190/4800658082</string>
-        <string name="admob_home_adapter_interstitial">ca-app-pub-4389384805063190/7277226733</string>
-        <string name="admob_viewpager_adapter_interstitial">ca-app-pub-4389384805063190/4651063394</string>
-
-
-    <!--   -->
-
-
-<!---->
-
-<!--facebook ads -->
-    <string name="banner_home">597337964586862_724114528575871</string>
-    <string name="show_banner">597337964586862_724114858575838</string>
-    <string name="banner_category">597337964586862_724115571909100</string>
-    <string name="home_native_facebook">597337964586862_597339264586732</string>
-    <string name="pager_native_facebook">597337964586862_691644898489501</string>
-
-<!--    end of facebook ads -->
 
     <string name="sponsored">sponsored</string>
 
